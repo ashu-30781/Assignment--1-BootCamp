@@ -293,7 +293,8 @@ h1 {
 }
 .container-main {
   background-color: #ffffff;
-  min-height: 1280px;
+  min-height: 703px;
+  border-bottom: 1px solid #f7f3f3;
 }
 h2 {
   margin-top: 31px;
@@ -307,4 +308,126 @@ h2 {
   float: left;
   padding: 14px 27px;
   font-size: 18px;
+}
+.gallery {
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+h3 {
+  float: left;
+  padding: 22px 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #3975fc;
+  width: 280px;
+
+  word-break: break-all;
+}
+
+.para-1 {
+  margin: 74px -280px;
+  float: left;
+  padding: -2px;
+  min-height: auto;
+  width: 283px;
+}
+.container-botam-up {
+  background-color: #ffffff;
+  max-height: 10px;
+  border-top: 50px;
+  position: relative;
+  border-color: #e9e5e5;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+}
+.container-botam-up > button {
+  position: relative;
+  padding: 21px 31px;
+  top: -26px;
+  left: 335px;
+  background-color: red;
+  border: transparent;
+  border-radius: 5%;
+  font-size: 121%;
+  text-transform: uppercase;
+}
+.container-botam {
+  background-color: #f7f3f3;
+  min-height: 584px;
+  border-color: #e9e5e5;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  margin-bottom: 172px;
+}
+.count-num {
+  position: absolute;
+  top: 1px;
+  right: 31px;
+  font-size: 36px;
+  padding: 11px 20px;
+  border-style: solid;
+  margin: -16px 13px;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-color: #3e7aff;
+  color: white;
+  text-shadow: 2px 2px 4px #ba9191;
+}
+.container-botam > h4 {
+  margin-top: 31px;
+  float: left;
+  padding: 98px 339px;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.under-line {
+  margin: -42px 433px;
+  float: right;
+  color: #e9e5e5;
+  font-size: 25px;
+}
+.img-1 {
+  margin-left: 70px;
+  margin-top: 40px;
+  float: left;
+}
+.logo2 {
+  float: left;
+  padding: 61px 0px;
+  margin-left: -179px;
+}
+.img-2 {
+  margin-left: 32px;
+}
+footer {
+  padding: 20px;
+  background-color: black;
+}
+.footer-top {
+  background-color: black;
+  background-image: linear-gradient(to right, black, gray);
+  padding: 148px;
+}
+.footer-text {
+  float: right;
+  margin-top: -105px;
+  margin-right: 412px;
+}
+.footer-text > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+.footer-top > p {
+  color: white;
+  float: left;
+  margin-left: 532px;
+  margin-top: -55px;
+}
+.logo-img {
+  float: left;
+  margin-left: 546px;
 }
