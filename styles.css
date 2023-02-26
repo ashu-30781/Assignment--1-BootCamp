@@ -402,32 +402,46 @@ h3 {
 .img-2 {
   margin-left: 32px;
 }
-footer {
-  padding: 20px;
-  background-color: black;
+.nav-foot {
+  text-align: center;
+  padding: 15px;
 }
-.footer-top {
-  background-color: black;
-  background-image: linear-gradient(to right, black, gray);
-  padding: 148px;
-}
-.footer-text {
-  float: right;
-  margin-top: -105px;
-  margin-right: 412px;
-}
-.footer-text > a {
+.nav-foot > a {
   color: white;
   text-decoration: none;
+  padding: 10px;
+}
+.under-line-1 {
+  margin-top: -68px;
   padding: 20px;
+  color: wheat;
 }
-.footer-top > p {
+.image-footer {
+  text-align: center;
+  margin-top: 62px;
+}
+.logo-footer {
+  margin-top: -71px;
+  padding: 92px;
+}
+footer {
   color: white;
-  float: left;
-  margin-left: 532px;
-  margin-top: -55px;
+  padding: 20px;
+  background-color: black;
 }
-.logo-img {
-  float: left;
-  margin-left: 546px;
+.main-footer {
+  text-align: center;
+}
+.main-footer-text {
+  text-decoration: none;
+  color: white;
+}
+.copyright {
+  text-align: center;
+  margin-top: 13px;
+}
+.container-footer {
+  min-height: 200px;
+  background-color: black;
+  background-image: linear-gradient(to right, black, gray);
 }
