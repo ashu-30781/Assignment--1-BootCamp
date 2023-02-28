@@ -223,17 +223,25 @@ header {
   background-color: black;
   background-image: linear-gradient(to right, black, gray);
 }
+.logo-img {
+  padding: 14px 0px;
+  margin-left: -6px;
+}
 .container {
-  max-width: 1024px;
+  max-width: 1150px;
   margin: 0 auto;
+  margin-left: 193px;
 }
 .header > a {
   float: left;
   text-decoration: none;
 }
+.nav-link {
+  margin-top: 11px;
+  margin-left: 195px;
+}
 .nav-wrap {
   float: right;
-  width: 400px;
   text-decoration: none;
 }
 .clearfix::after {
@@ -255,6 +263,7 @@ header {
 }
 .nav a {
   color: white;
+  padding: 15px;
   text-decoration: none;
 }
 .nav-link a {
@@ -268,49 +277,70 @@ header {
   display: flow-root;
 }
 .contant-header {
-  padding: 60px 1px;
+  padding: 74px 1px;
   background-color: rgb(255 249 249 / 49%);
-  margin-top: 72px;
+  margin-top: 70px;
 }
 h1 {
   float: left;
   color: black;
   text-transform: uppercase;
-  font-size: 40px;
-  margin: -14px;
+  font-size: 58px;
+  margin: -28px;
   padding: 0px 38px;
+  margin-left: 1px;
 }
 .contant-header > button {
   border: none;
-  padding: 10px 61px;
+  padding: 15px 88px;
   float: right;
+  font-size: 25px;
   color: white;
   background-color: #4780ff;
   border-radius: 5px;
   text-transform: uppercase;
   background-image: linear-gradient(to bottom right, #4780ff, #2566f7);
-  margin: -14px 72px;
+  margin: -27px 46px;
 }
 .container-main {
   background-color: #ffffff;
-  min-height: 703px;
+  min-height: 772px;
   border-bottom: 1px solid #f7f3f3;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 h2 {
-  margin-top: 31px;
+  margin-top: 21px;
   float: left;
-  padding: 40px 31px;
+  padding: 43px 46px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
 }
 .upper {
-  margin: 0 auto;
+  margin-top: -18px;
   float: left;
-  padding: 14px 27px;
-  font-size: 18px;
+  padding: 15px 45px;
+  font-size: 21px;
 }
-.gallery {
+.fram-img {
+  height: 192px;
+}
+.gallery-1 {
+  margin-left: 26px;
+  margin-top: 30px;
   float: left;
+  padding: 20px;
+  position: relative;
+}
+.gallery-2 {
+  margin-top: 51px;
+  float: left;
+  position: relative;
+  margin-left: 4px;
+}
+.gallery-3 {
+  float: left;
+  margin-top: 31px;
+  margin-left: 5px;
   padding: 20px;
   position: relative;
 }
@@ -329,9 +359,12 @@ h3 {
 .para-1 {
   margin: 74px -280px;
   float: left;
+  margin-top: 91px;
+  font-size: 19px;
   padding: -2px;
   min-height: auto;
-  width: 283px;
+  word-break: break-all;
+  width: 287px;
 }
 .container-botam-up {
   background-color: #ffffff;
@@ -340,26 +373,30 @@ h3 {
   position: relative;
   border-color: #e9e5e5;
   border-style: solid;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-width: 2px 0px 0px 0px;
 }
 .container-botam-up > button {
   position: relative;
-  padding: 21px 31px;
+  padding: 18px 32px;
   top: -26px;
-  left: 335px;
-  background-color: red;
+  color: white;
+  left: 408px;
+  /* background-color: red; */
   border: transparent;
   border-radius: 5%;
-  font-size: 121%;
+  font-size: 139%;
   text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #f70000, #cf0000);
 }
 .container-botam {
   background-color: #f7f3f3;
-  min-height: 584px;
+  min-height: 475px;
   border-color: #e9e5e5;
-  border-style: solid;
-  border-width: 2px 0px 0px 0px;
+  /* border-style: solid; */
+  /* border-width: 2px 0px 0px 0px; */
   margin-bottom: 172px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .count-num {
   position: absolute;
@@ -377,11 +414,12 @@ h3 {
   text-shadow: 2px 2px 4px #ba9191;
 }
 .container-botam > h4 {
-  margin-top: 31px;
+  margin-top: 23px;
   float: left;
-  padding: 98px 339px;
+  padding: 81px 339px;
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 27px;
+  margin-left: 68px;
 }
 .under-line {
   margin: -42px 433px;
@@ -390,17 +428,22 @@ h3 {
   font-size: 25px;
 }
 .img-1 {
-  margin-left: 70px;
-  margin-top: 40px;
+  margin-left: 61px;
+  margin-top: 19px;
   float: left;
+  padding: 17px 32px;
+  min-height: 19px;
 }
 .logo2 {
   float: left;
-  padding: 61px 0px;
-  margin-left: -179px;
+  padding: 30px 1px;
+  margin-left: -233px;
 }
 .img-2 {
-  margin-left: 32px;
+  margin-left: 17px;
+  min-height: 30px;
+  padding: 19px 18px;
+  margin-top: -21px;
 }
 .nav-foot {
   text-align: center;
@@ -412,7 +455,8 @@ h3 {
   padding: 10px;
 }
 .under-line-1 {
-  margin-top: -68px;
+  margin-left: 16px;
+  margin-top: -63px;
   padding: 20px;
   color: wheat;
 }
@@ -421,8 +465,10 @@ h3 {
   margin-top: 62px;
 }
 .logo-footer {
-  margin-top: -71px;
+  margin-top: -61px;
+  margin-left: 15px;
   padding: 92px;
+  min-height: 95px;
 }
 footer {
   color: white;
@@ -441,7 +487,12 @@ footer {
   margin-top: 13px;
 }
 .container-footer {
-  min-height: 200px;
+  margin-top: -32px;
+  /* min-height: 188px
+px
+; */
   background-color: black;
   background-image: linear-gradient(to right, black, gray);
+}
+.how-text-footer {
 }
