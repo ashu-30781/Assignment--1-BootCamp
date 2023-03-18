@@ -230,7 +230,6 @@ header {
 .container {
   max-width: 1150px;
   margin: 0 auto;
-  margin-left: 193px;
 }
 .header > a {
   float: left;
@@ -381,12 +380,13 @@ h3 {
   padding: 18px 32px;
   top: -26px;
   color: white;
-  left: 408px;
+
   /* background-color: red; */
   border: transparent;
   border-radius: 5%;
   font-size: 139%;
   text-transform: uppercase;
+  text-align: center;
   background-image: linear-gradient(to bottom, #f70000, #cf0000);
 }
 .container-botam {
