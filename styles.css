@@ -308,6 +308,7 @@ header {
   margin-top: 70px;
 }
 h1 {
+  margin: 0px;
   float: left;
   color: black;
   text-transform: uppercase;
@@ -317,6 +318,8 @@ h1 {
   margin-left: 1px;
 }
 .contant-header > button {
+  margin: 0px;
+  margin-right: 52px;
   border: none;
   padding: 15px 88px;
   float: right;
@@ -326,7 +329,6 @@ h1 {
   border-radius: 5px;
   text-transform: uppercase;
   background-image: linear-gradient(to bottom right, #4780ff, #2566f7);
-  margin: -27px 46px;
 }
 .container-main {
   background-color: #ffffff;
@@ -551,7 +553,6 @@ px
     float: none;
   }
   .contant-header {
-    margin: 0;
     text-align: center;
   }
   .container-main {
@@ -578,5 +579,9 @@ px
     position: relative;
   }
   .main-gal {
+  }
+  .logo-img {
+    position: absolute;
+    padding: inherit;
   }
 }
